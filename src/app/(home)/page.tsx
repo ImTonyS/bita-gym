@@ -1,14 +1,15 @@
-
-import Hero from "../../../components/Hero";
-
+import Activities from "~/app/(home)/_components/Activities";
+import Hero from "./_components/Hero";
+import Services from "./_components/Services";
+import VisitUs from "./_components/VisitUs";
 
 export default async function Home() {
-
   return (
-    <main className="flex flex-col items-center justify-center bg-gradient-to-b from-bita-black to-bita-gray text-dark">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-        <Hero />
-      </div>
-    </main>
+    <>
+      <Hero />
+      <Services />
+      <Activities />
+      <VisitUs />
+    </>
   );
 }

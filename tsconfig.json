@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "components/Hero.tsx", "components/MagneticText.jsx"  ],
   "exclude": ["node_modules"]
 }

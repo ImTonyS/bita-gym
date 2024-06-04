@@ -1,21 +1,20 @@
-import Navbar from "components/Navbar";
-import Hero from "components/Hero";
-import "~/styles/globals.css"
-import { Inter } from 'next/font/google'
-const inter = Inter({subsets: ["latin"] })
+import "~/styles/globals.css";
+import { Inter } from "next/font/google";
+import Logo from "components/Logo";
+const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout({ 
-    children,
+export default function RootLayout({
+  children,
 }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body className={`min-h-screen mx-auto ${inter.className}`}>
-                <>
-                <Navbar>{children}</Navbar>
-                </>
-            </body>
-        </html>
-    )
+  return (
+    <html lang="en">
+      <body className={` ${inter.className}`}>
+        <>
+          <Logo>{children}</Logo>
+        </>
+      </body>
+    </html>
+  );
 }

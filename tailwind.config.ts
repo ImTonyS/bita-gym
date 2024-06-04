@@ -3,6 +3,7 @@ import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: ["./src/**/*.tsx",
+    "./components/**",
     "node_modules/preline/dist/*.js"
   ],
   theme: {
@@ -11,8 +12,8 @@ export default {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],
       },
     colors: {
-      "bita-green": "#B8D432",
-      "bita-dark": "#1B262C",
+      "bita-green": "#a8d037",
+      "bita-dark": "#2C3333",
       "bita-gray": "#818284",
       "bita-black": "#3E3E3E"
     }
