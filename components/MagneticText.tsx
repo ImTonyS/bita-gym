@@ -20,7 +20,7 @@ const Group = ({
   children: (tokens: string[]) => ReactNode;
   className: string;
   body: string;
-  props: unknown;
+  props?: unknown;
 }) => {
   const tokens = useMemo(() => body.split(""), [body]);
 

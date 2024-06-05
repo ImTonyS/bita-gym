@@ -17,89 +17,100 @@ export default function Activities() {
           <div className="grid-cols grid gap-6 sm:grid-cols-12">
             <div className="col-span-12 sm:col-span-7 sm:self-end md:col-span-8 lg:col-span-5 lg:col-start-3">
               {/* Card */}
-              <a
-                className="group relative block overflow-hidden rounded-xl"
-                href="#"
-              >
-                <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
-                  <Image
-                    className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    src={bitaMansonry2}
-                    alt="Image Description"
-                  />
+              <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
+                <Image
+                  className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                  src={bitaMansonry2}
+                  alt="Image Description"
+                />
+
+                <div className="relative bottom-10 left-5 rounded-lg bg-gradient-to-r from-bita-green via-transparent via-80% to-transparent px-5 py-4">
+                  <h1 className="font-bold text-white drop-shadow-md">
+                    Clases Grupales
+                  </h1>
                 </div>
-                <div className="absolute text-white">
-                  <h1>Hola</h1>
-                </div>
-              </a>
+              </div>
+
               {/* End Card */}
             </div>
             {/* End Col */}
             <div className="col-span-12 sm:col-span-5 sm:self-end md:col-span-4 lg:col-span-3">
               {/* Card */}
-              <a
-                className="group relative block overflow-hidden rounded-xl"
-                href="#"
-              >
-                <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
-                  <Image
-                    className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    src={bitaMansonry1}
-                    alt="Image Description"
-                  />
+
+              <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
+                <Image
+                  className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                  src={bitaMansonry1}
+                  alt="Image Description"
+                />
+
+                <div className="relative bottom-10 left-5 rounded-lg bg-gradient-to-r from-bita-green via-transparent via-80% to-transparent px-5 py-4 sm:bottom-8 sm:py-3">
+                  <h1 className="font-bold text-zinc-50 drop-shadow-lg">
+                    Bita Gym
+                  </h1>
                 </div>
-              </a>
+              </div>
+
               {/* End Card */}
             </div>
             {/* End Col */}
             <div className="col-span-12 md:col-span-4">
               {/* Card */}
-              <a
-                className="group relative block overflow-hidden rounded-xl"
-                href="#"
-              >
-                <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
-                  <Image
-                    className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    src={bitaMansonry3}
-                    alt="Image Description"
-                  />
+
+              <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
+                <Image
+                  className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                  src={bitaMansonry3}
+                  alt="Image Description"
+                />
+
+                <div className="relative bottom-10 left-5 rounded-lg bg-gradient-to-r from-bita-green via-transparent via-80% to-transparent px-5 py-4 sm:bottom-8 sm:py-3">
+                  <h1 className="font-bold text-zinc-50 drop-shadow-lg">
+                    Barra de jugos
+                  </h1>
                 </div>
-              </a>
+              </div>
+
               {/* End Card */}
             </div>
             {/* End Col */}
             <div className="col-span-12 hidden sm:col-span-6 sm:block md:col-span-4">
               {/* Card */}
-              <a
-                className="group relative block overflow-hidden rounded-xl"
-                href="#"
-              >
-                <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
-                  <Image
-                    className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    src={bitaMansonry4}
-                    alt="Image Description"
-                  />
+
+              <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
+                <Image
+                  className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                  src={bitaMansonry4}
+                  alt="Image Description"
+                />
+
+                <div className="relative bottom-10 left-5 rounded-lg bg-gradient-to-r from-bita-green via-transparent via-80% to-transparent px-5 py-4">
+                  <h1 className="font-bold text-zinc-50 drop-shadow-lg">
+                    Bita Cross / Box
+                  </h1>
                 </div>
-              </a>
+              </div>
+
               {/* End Card */}
             </div>
             {/* End Col */}
             <div className="col-span-12 hidden sm:col-span-6 sm:block md:col-span-4">
               {/* Card */}
-              <a
-                className="group relative block overflow-hidden rounded-xl"
-                href="#"
-              >
-                <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
-                  <Image
-                    className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                    src={bitaMansonry5}
-                    alt="Image Description"
-                  />
+
+              <div className="aspect-w-12 aspect-h-7 sm:aspect-none overflow-hidden rounded-xl">
+                <Image
+                  className="w-full rounded-xl object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                  src={bitaMansonry5}
+                  alt="Image Description"
+                />
+
+                <div className="relative bottom-10 left-5 rounded-lg bg-gradient-to-r from-bita-green via-transparent via-80% to-transparent px-5 py-4 sm:bottom-8 sm:py-3">
+                  <h1 className="font-bold text-zinc-50 drop-shadow-lg">
+                    Bita Fitness
+                  </h1>
                 </div>
-              </a>
+              </div>
+
               {/* End Card */}
             </div>
             {/* End Col */}

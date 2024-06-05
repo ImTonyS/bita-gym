@@ -7,7 +7,9 @@ export default function Logo({ children }: { children: React.ReactNode }) {
   return (
     <>
       <header className="absolute left-4 top-4 z-20">
-        <Image src={logo} width={200} height={150} alt="Logo" />
+        <a href="/">
+          <Image src={logo} width={200} height={150} alt="Logo" />
+        </a>
       </header>
       {children}
     </>

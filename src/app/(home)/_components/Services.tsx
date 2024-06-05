@@ -10,7 +10,7 @@ import Icon6 from "images/juice.png";
 export default function Services() {
   return (
     <>
-      <div className="bg-bita-dark">
+      <div id="services" className="bg-bita-dark">
         <div className="mx-auto max-w-[85rem] px-6 py-10 sm:px-8 lg:px-8 lg:py-14">
           {/* Grid */}
           <div className="grid gap-12 md:grid-cols-2">

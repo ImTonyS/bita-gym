@@ -1,13 +1,17 @@
 "use client";
 import "~/styles/globals.css";
 import { MagneticText } from "../../../../components/MagneticText";
+
 export default function Hero() {
   const text = "Transforma tu";
   return (
     <>
       {/* Hero */}
 
-      <div className="relative flex min-h-screen flex-col items-start justify-center">
+      <div
+        id="inicio"
+        className="relative flex min-h-screen flex-col items-start justify-center overflow-y-hidden"
+      >
         <div className="absolute left-0 top-0 z-0 h-full w-full">
           <video
             className="h-full w-full object-cover"
@@ -20,10 +24,23 @@ export default function Hero() {
         <div className="absolute z-10 h-full w-full bg-gradient-to-r from-bita-dark to-transparent to-70%"></div>
 
         <div className="z-30 mx-10 max-w-[85rem] space-y-8 px-4 py-24 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl  text-left">
+          <div className="mx-auto max-w-3xl  space-y-1 text-left">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="gray"
+              className="size-6 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25"
+              />
+            </svg>
             <MagneticText
               body={text}
-              as="div"
               className="font-var w-full max-w-2xl text-left text-4xl text-[#e9e9e9] md:text-6xl"
             >
               {(tokens) =>
