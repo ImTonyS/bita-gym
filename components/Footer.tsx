@@ -5,7 +5,7 @@ export default function Footer() {
     <section className="bg-bita-dark py-6">
       <footer className="mx-auto mt-auto w-full max-w-[85rem] px-4 sm:px-6 lg:px-8">
         {/* Grid */}
-        <div className="grid grid-cols-1 items-center gap-5 md:grid-cols-3">
+        <div className="flex flex-col items-center gap-5 sm:grid sm:grid-cols-1 md:grid-cols-3">
           <div>
             <a
               className="flex-none text-xl font-semibold text-black"
