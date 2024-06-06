@@ -95,7 +95,7 @@ function Token({
     <Component
       ref={container}
       className={className}
-      style={{ fontWeight: "bold" }}
+      style={{ fontWeight: fontWeightSpring.get() | 100 }}
       {...props}
     >
       {body}
