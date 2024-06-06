@@ -5,8 +5,8 @@ import React, {
   useState,
   useEffect,
   ReactNode,
-  ElementType,
   HTMLAttributes,
+  ElementType,
 } from "react";
 import { useMouse } from "react-use";
 import { useSpring } from "framer-motion";
@@ -31,7 +31,7 @@ const Group = ({
   );
 };
 
-interface TokenProps extends HTMLAttributes<HTMLElement> {
+export interface TokenProps extends HTMLAttributes<HTMLElement> {
   min?: number;
   max?: number;
   threshold?: number;
@@ -59,12 +59,12 @@ function Token({
   const [previous, setPrevious] = useState(min);
   const [transitioning, setTransitioning] = useState(false);
 
-  const fontWeight = useSpring(min, { duration: 100 });
+  const fontWeightSpring = useSpring(min, { duration: 100 });
 
   function animate(value: number) {
     setTransitioning(true);
 
-    fontWeight.set(value);
+    fontWeightSpring.set(value);
 
     setTimeout(() => setTransitioning(false), 100);
   }
@@ -85,7 +85,7 @@ function Token({
     } else if (previous > min && targetValue === min) {
       animate(targetValue);
     } else if (!transitioning) {
-      fontWeight.jump(targetValue);
+      fontWeightSpring.jump(targetValue);
     }
 
     setPrevious(targetValue);
@@ -95,7 +95,7 @@ function Token({
     <Component
       ref={container}
       className={className}
-      style={{ fontWeight: fontWeight.get() }}
+      style={{ fontWeight: "bold" }}
       {...props}
     >
       {body}

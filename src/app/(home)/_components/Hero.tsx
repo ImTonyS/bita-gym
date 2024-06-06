@@ -1,6 +1,6 @@
 "use client";
 import "~/styles/globals.css";
-import { MagneticText } from "../../../../components/MagneticText";
+import { MagneticText } from "components/MagneticText";
 
 export default function Hero() {
   const text = "Transforma tu";

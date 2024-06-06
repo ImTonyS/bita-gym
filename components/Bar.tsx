@@ -1,4 +1,3 @@
-import icons from "images/icons";
 import React from "react";
 
 export default function Bar({
